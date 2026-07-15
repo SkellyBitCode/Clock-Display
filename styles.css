@@ -1,0 +1,41 @@
+body {
+    background-color: #000000;
+    font-family: monospace;
+    color: #FFFFFF;
+}
+
+.clock {
+    font-size: 140px;
+    float: left;
+    width: 350px;
+    text-align: center;
+    
+    /* DEBUG */
+    /*background-color: #FF0000;*/
+}
+
+.calendar {
+    margin-top: 15px;
+    float: right;
+    width: 350px;
+    text-align: center;
+    
+    /* DEBUG */
+    /*background-color: #00FF00;*/
+}
+
+.weather {
+    margin-top: 200px;
+    margin-left: -350px;
+    width: 450px;
+    float: left;
+    text-align: center;
+    
+    /* DEBUG */
+    /*background-color: #0000FF;*/
+}
+
+/*Hides cursor from view
+* {
+    cursor: none;
+}*/

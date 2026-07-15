@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>HTML Clock</title>
+            <link rel="stylesheet" type="text/css" href="styles.css">  
+        </head>
+        <body>
+            <div class="clock">
+                <span id="hours"></span><!-- Removes Space between Span
+                --><span>:</span><!-- Removes Space between Span
+                --><span id="mins"></span>
+                <!-- Remove for seconds to display
+                <span>:</span>
+                <span id="secs"></span>-->
+            </div>
+
+            <div class="calendar">
+                <span id="day" style="font-size: 50px;"></span><br>
+                <span id="date" style="font-size: 220px;"></span><br>
+                <span id="month" style="font-size: 70px;"></span>
+                <span>&nbsp</span> <!-- Space inbetween Month and year-->
+                <span id="year" style="font-size: 70px;"></span>
+            </div>
+
+            <div class="weather">
+                <img id="icon" src="https://openweathermap.org/img/wn/01n@2x.png" alt="Weather Icon">
+                <span id="temp" style="font-size: 100px;">--°C</span><br>
+                <span id="location" style="font-size: 30px;">Location To Be</span><br>
+            
+                <input type="text" id="input" style="font-family: monospace;" placeholder="Enter a town or city">
+                <button id="search" style="font-family: monospace;">Search</button>
+            </div>
+            <script src="script.js"></script>
+        </body>
+    </html>
