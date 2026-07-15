@@ -1,3 +1,8 @@
 # Clock-Display
 ## Overview
-This is a basic digital clock design made with HTMl, CSS and JavaScript. It displays the time to the second as well as the date. The it's intended use is to be displayed on a Raspberry Pi connected to a small HDMI display. This has plans to also display local weather but that is to be added down the line.
+This is a basic digital clock design made with HTMl, CSS and JavaScript. It displays the time to the minute (with seconds being commented out in the code) as well as the date and even the weather.
+## How to use
+1. Clone the repo to your device
+2. Run the index.html file in your browser
+3. For the weather, type in the town or city you wanted and click the submit button. Note you will need to use tab and enter to move around the display as mouse has been disabled
+4. To change the weather, you will need to reload the page by using f5, and repeat step 3 as you please
