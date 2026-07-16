@@ -6,8 +6,11 @@ body {
 
 .clock {
     font-size: 140px;
-    float: left;
-    width: 350px;
+    width: 40%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    transform: translate(0%, 0%);
     text-align: center;
     
     /* DEBUG */
@@ -16,8 +19,11 @@ body {
 
 .calendar {
     margin-top: 15px;
-    float: right;
-    width: 350px;
+    position: absolute;
+    top: 5%;
+    left: 55%;
+    transform: translate(0%, 0%);
+    width: 40%;
     text-align: center;
     
     /* DEBUG */
@@ -25,10 +31,11 @@ body {
 }
 
 .weather {
-    margin-top: 200px;
-    margin-left: -350px;
-    width: 450px;
-    float: left;
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    transform: translate(0%, 0%);
     text-align: center;
     
     /* DEBUG */

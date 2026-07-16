@@ -51,8 +51,8 @@ setInterval(displayDateTime, 10);
 
 //-------------------------------------------------------------------------------------------------------------------------------------
 
-const apiKey = "[INSERT YOUR OWN KEY HERE]";        // Get your own API Key from OpenWeatherMap (free btw)
-                                                    // It tells OpenWeatherMap you are making the request and is used when getting data
+// Get your own API Key from OpenWeatherMap (free btw)
+const apiKey = "[INSERT YOUR OWN KEY HERE]";    // It tells OpenWeatherMap you are making the request and is used when getting data
 
 const input = document.getElementById('input');
 const search = document.getElementById('search');
