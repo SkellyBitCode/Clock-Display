@@ -69,6 +69,11 @@ search.addEventListener('click', () => {
     
 });
 
+// Update weather every minute (60 seconds, 60,000 ms)
+setInterval(() => {
+    fetchWeather(input.value);
+}, 60000);
+
 function fetchWeather(location) {
     //Get data from URL using Location API Key
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`;
