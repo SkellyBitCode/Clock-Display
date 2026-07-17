@@ -101,7 +101,9 @@ function fetchWeather(location) {
         //If problem with input
         .catch(error => {
             console.error('Error fetching weather data:', error);
-            locate.textContent = "Try with valid city"
+            if(location){
+                locate.textContent = "Try with valid city"
+            }
             weatherIcon.src = "";
         });
 }
