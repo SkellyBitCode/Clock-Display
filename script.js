@@ -102,7 +102,7 @@ function fetchWeather(location) {
         .catch(error => {
             console.error('Error fetching weather data:', error);
             if(location){
-                locate.textContent = "Try with valid city"
+                locate.textContent = "Try with valid town/city"
             }
             weatherIcon.src = "";
         });
