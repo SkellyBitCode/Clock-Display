@@ -37,7 +37,7 @@ function displayDateTime(){
     var year = dateTime.getFullYear();
 
     document.getElementById('day').innerHTML = String(day);
-    if (mins < 10){
+    if (date < 10){
         document.getElementById('date').innerHTML = String(date).padStart(2, "0");
     } else {
         document.getElementById('date').innerHTML = String(date);
